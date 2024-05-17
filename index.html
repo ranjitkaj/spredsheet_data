@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }  
+        
+    </style>
+</head>
+<body>
+    <form method="post" action="https://script.google.com/macros/s/AKfycbwRPfeL29f8Xm7va_qENLttksDk9bWYQK2KOERB0v6IXv6sHE6SQUgNe3IA8xEYnfM7/exec">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <label for="email">Email</label>
+        <input type="text" name="email">
+        <label for="username">Username</label>
+        <input type="text" name="username" >
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
